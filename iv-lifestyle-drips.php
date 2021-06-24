@@ -62,6 +62,7 @@ if (have_posts()) :
 .booter_icon {
   width: 56px;
 }
+/* this is a test */
 
 
     </style>
