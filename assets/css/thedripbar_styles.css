@@ -1299,6 +1299,13 @@ body a:hover {
 	grid-row-end: 19;
 }
 
+.lifestyle-drips .gallery__item--15 {
+	grid-column-start: 9;
+	grid-column-end: 13;
+	grid-row-start: 16;
+	grid-row-end: 19;
+}
+
 .lifestyle-drips-overlays .overlay {
 	background-color: rgba(5, 78, 96, 0.92);
 }
@@ -1728,7 +1735,7 @@ body a:hover {
 .services-carousel .gallery__item--5,
 .services-carousel .gallery__item--8,
 .services-carousel .gallery__item--11,
-.services-carousel .gallery__item--14,
+.services-carousel .gallery__item--15,
 .services-carousel .gallery__item--17,
 .services-carousel .gallery__item--20 {
 	grid-row-start: 6;
@@ -1739,7 +1746,7 @@ body a:hover {
 .services-carousel .gallery__item--6,
 .services-carousel .gallery__item--9,
 .services-carousel .gallery__item--12,
-.services-carousel .gallery__item--15,
+/* .services-carousel .gallery__item--15, */
 .services-carousel .gallery__item--18,
 .services-carousel .gallery__item--21 {
 	grid-row-start: 11;
@@ -2724,11 +2731,11 @@ body a:hover {
 		top: 0%;
 	}
 
-	.lifestyle-drips-overlays #gallery-overlay-14 .overlay-description {
+	.lifestyle-drips-overlays #gallery-overlay-15 .overlay-description {
 		border-left: none;
 	}
 
-	.lifestyle-drips-overlays #gallery-overlay-14 .overlay-description p {
+	.lifestyle-drips-overlays #gallery-overlay-15 .overlay-description p {
 		text-align: center;
 		padding-left: 0;
 	}

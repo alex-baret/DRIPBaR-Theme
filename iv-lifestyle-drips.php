@@ -59,8 +59,12 @@ if (have_posts()) :
   width: 62px;
 }
 
-.booter_icon {
+.allergy_icon {
   width: 56px;
+}
+
+.gallery__item--14{
+  display: block !important;
 }
 /* this is a test */
 /* test #2 */
@@ -155,7 +159,12 @@ if (have_posts()) :
       <figure id="gallery-item-14" class="gallery__item gallery__item--14 gallery-item-open">
           <img src="/wp-content/uploads/2020/06/Boosters-min.png" alt="Boosters" class="gallery__img">
           <img class="booter_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" alt="Boosters-icon">
-          <p>Boosters</p>
+          <p>Allergy</p>
+      </figure>
+      <figure id="gallery-item-15" class="gallery__item gallery__item--15 gallery-item-open">
+          <img src="/wp-content/uploads/2021/07/Allergy-Pic.jpg" alt="Boosters" class="gallery__img">
+          <img class="allergy_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" alt="Allergy-icon">
+          <p>Allergy</p>
       </figure>
     </div>
   </div>
@@ -259,15 +268,15 @@ if (have_posts()) :
                     <img class="debut_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" alt="The-Debut-icon">
                     <p>The Debut</p>
                 </figure>
-                <figure id="gallery-item-14" class="gallery__item gallery__item--14 gallery-item-open">
-                    <img src="/wp-content/uploads/2020/06/Boosters-min.png" alt="Boosters" class="gallery__img">
-                    <img class="booter_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" alt="Boosters-icon">
-                    <p>Boosters</p>
+                <figure id="gallery-item-15" class="gallery__item gallery__item--15 gallery-item-open">
+                    <img src="/wp-content/uploads/2021/07/Allergy-Pic.jpg" alt="Allergy" class="gallery__img">
+                    <img class="ballergy_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" alt="allergy-icon">
+                    <p>Allergy</p>
                 </figure>
-				    <figure id="gallery-item-15" class="gallery__item gallery__item--14 gallery-item-open">
+				    <!-- <figure id="gallery-item-15" class="gallery__item gallery__item--14 gallery-item-open">
                     <img src="/wp-content/uploads/2021/06/Allergy-Pic.jpg" alt="Allergy" class="gallery__img">
                     <img class="booter_icon" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" alt="Boosters-icon">
-                    <p>Allergy</p>
+                    <p>Allergy</p> -->
                 </figure>
               </div>
             </div>
@@ -313,8 +322,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" style="" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			   <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			   
           </div>
           <p class="text-on-hover">Powerpack</p>
         </div>
@@ -358,8 +367,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" style="" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			  <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			  
           </div>
           <p class="text-on-hover">Shield</p>
         </div>
@@ -405,8 +414,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			   <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			   
           </div>
           <p class="text-on-hover">Allstar</p>
         </div>
@@ -450,8 +459,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			   <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			  
           </div>
           <p class="text-on-hover">Executive NAD</p>
         </div>
@@ -498,8 +507,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			   <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			   
           </div>
           <p class="text-on-hover">Soother</p>
         </div>
@@ -542,8 +551,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			   <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			   
           </div>
           <p class="text-on-hover">Restoration</p>
         </div>
@@ -587,8 +596,8 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
-			  <img id="gallery-icon-15" class="gallery-icon-open" src="https://thedripbar.com/wp-content/uploads/2021/06/192963735_333995088110103_2931250041988369730_n.png" style="width: 46px;" alt="Allergy">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
+			  
           </div>
           <p class="text-on-hover">Time Machine</p>
         </div>
@@ -636,7 +645,7 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
           <p class="text-on-hover">Preop</p>
         </div>
@@ -685,7 +694,7 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
           <p class="text-on-hover">Postop</p>
         </div>
@@ -730,7 +739,7 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
           <p class="text-on-hover">Jetsetter</p>
         </div>
@@ -775,7 +784,7 @@ if (have_posts()) :
             <img class="overlay-icon-selected" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
           <p class="text-on-hover">Flu Fighter</p>
         </div>
@@ -822,7 +831,7 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img class="overlay-icon-selected" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
           <p class="text-on-hover">Firm</p>
         </div>
@@ -863,7 +872,7 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img class="overlay-icon-selected" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img id="gallery-icon-14" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img id="gallery-icon-15" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
           <p class="text-on-hover">The Debut</p>
         </div>
@@ -871,17 +880,17 @@ if (have_posts()) :
     </div>
   </div>
 
-  <!-- Boosters Overlay -->
-  <div id="gallery-overlay-14" class="overlay">
+  <!-- Allergy Overlay -->
+  <div id="gallery-overlay-15" class="overlay">
     <span aria-hidden="true"><i class="fas fa-times closebtn"></i></span>
     <div class="overlay-content">
       <div class="container">
         <div class="row">
           <div class="col-md-offset-1 col-md-10">
-            <img class="booter_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width:54px;" alt="Boosters-icon">
-            <h3>Boosters</h3>
+            <img class="allergy_icon" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width:54px;" alt="Allergy-icon">
+            <h3>Allergy</h3>
             <div class="overlay-description">
-              <p>Amino Acids, Biotin, Carnitine, Glutathione, Magnesium, B12, B Complex, C Booster, Vitamin D, Zinc.</p>
+              <p style=" padding-left: 35px; text-align:left; border-left: 1px solid #ffffff; max-width: 800px;">Allergic rhinitis is caused by an abnormal immune response due to allergens that enter the body from the environment. The immune response triggers an inflammatory cascade of free radicals and cytokines that create the symptoms. This infusion contains high levels of antioxidants to neutralize that reaction.</p>
             </div>
           </div>
         </div>
@@ -904,9 +913,9 @@ if (have_posts()) :
             <img id="gallery-icon-11" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Flu-Fighter-overlay-icon.svg" alt="Flu Fighter">
             <img id="gallery-icon-12" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Firm-overlay-icon.svg" style="width: 92px;" alt="Firm">
             <img id="gallery-icon-13" class="gallery-icon-open" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/The-Debut-overlay-icon.svg" style="width: 61px;" alt="The Debut">
-            <img class="overlay-icon-selected" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/Boosters-overlay-icon.svg" style="width: 46px;" alt="Boosters">
+            <img class="overlay-icon-selected" src="<?php bloginfo('template_directory'); ?>/assets/images/icons_overlay/live_style_drips/allergy-drip-icon.png" style="width: 46px;" alt="Allergy">
           </div>
-          <p class="text-on-hover">Boosters</p>
+          <p class="text-on-hover">Allergy</p>
         </div>
       </div>
     </div>
